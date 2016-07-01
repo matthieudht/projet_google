@@ -3,22 +3,68 @@
 ********* for mobile *****************
 *************************************
 ************************************/
+* {
 
+  font-family: 'Liberation Sans', sans-serif;
+}
 
 /* the header */
+
+nav {
+  float: right;
+  clear: both;
+  border: 1px solid black;
+  font-size: 13px;
+  display:flex;
+  align-items: center;
+}
+
+a {
+  margin-right: 10px;
+}
+
+.notification_picture {
+  border-radius: 100% ;
+  width: 20px;
+}
+
+.compte_picture {
+  border-radius: 100%;
+}
+
+
+a:link {
+  color: #4c4c4c;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #4c4c4c;
+}
+
+a:hover, a:visited:hover {
+  text-decoration: underline;
+  color: #000;
+}
 
 /* the header */
 
 
 
 /* the section */
+section {
+  border: 1px solid black;
+}
+
 
 /* the section */
 
 
 
 /*the footer */
-
+footer {
+    border: 1px solid black;
+}
 /* the footer */
 
 
