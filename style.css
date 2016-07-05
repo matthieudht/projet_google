@@ -51,11 +51,11 @@ a:hover, a:visited:hover {
 
 /* the section */
 section {
-
+margin-bottom: 30%;
 }
 
 .google_picture img{
-  width: 100%;
+  width: 80%;
 
 }
 
@@ -81,7 +81,9 @@ section {
 
 /*the footer */
 footer {
-    border: 1px solid black;
+    position: absolute;
+    bottom: 0;
+    margin-top: 30%;
 }
 /* the footer */
 
@@ -93,3 +95,64 @@ footer {
 *************** for tab *****************
 ****************************************
 ***************************************/
+
+@media screen and (min-width: 900px) {
+
+  /* the section */
+  section {
+  margin-bottom: 20%;
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+
+  .google_picture img{
+    width: 60%;
+    margin: auto 20%;
+  }
+
+  .google_search {
+    margin-top: 10% auto;
+
+  }
+
+  .search_bar {
+    width:70%;
+    margin: 5% 10%;
+    height: 40px;
+
+  }
+
+  .button {
+    display:flex;
+    justify-content: center;
+  }
+
+  .search_luck, .search_button {
+    margin: 5px;
+    padding: 5px;
+  }
+
+
+  /* the section */
+
+
+
+  /*the footer */
+  footer {
+      margin-top: 40%;
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+  }
+
+  footer nav {
+    width: 45%;
+    text-align: center;
+  }
+
+
+  /* the footer */
+}
