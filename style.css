@@ -10,10 +10,12 @@
 
 /* the header */
 
+header {
+  display: flex;
+  justify-content: flex-end;
+}
+
 nav {
-  float: right;
-  clear: both;
-  border: 1px solid black;
   font-size: 13px;
   display:flex;
   align-items: center;
@@ -33,13 +35,9 @@ a {
 }
 
 
-a:link {
+a:link , a:visited {
   color: #4c4c4c;
   text-decoration: none;
-}
-
-a:visited {
-  color: #4c4c4c;
 }
 
 a:hover, a:visited:hover {
@@ -53,7 +51,27 @@ a:hover, a:visited:hover {
 
 /* the section */
 section {
-  border: 1px solid black;
+
+}
+
+.google_picture img{
+  width: 100%;
+
+}
+
+.search_bar {
+  width:100%;
+
+}
+
+.button {
+  display:flex;
+  justify-content: center;
+}
+
+.search_luck, .search_button {
+  margin: 5px;
+  padding: 5px;
 }
 
 
